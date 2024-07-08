@@ -6,20 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-<<<<<<< HEAD
     <width>508</width>
     <height>659</height>
-=======
-    <width>437</width>
-    <height>710</height>
->>>>>>> e93b799 (Added some ui elements -- definitely not complete yet.)
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-<<<<<<< HEAD
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
      <layout class="QHBoxLayout" name="inputLayout">
@@ -43,77 +37,14 @@
        <widget class="QPushButton" name="pushButton">
         <property name="text">
          <string>PushButton</string>
-=======
-   <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
-     <layout class="QVBoxLayout" name="verticalLayout_3">
-      <item>
-       <layout class="QHBoxLayout" name="horizontalLayout">
-        <property name="sizeConstraint">
-         <enum>QLayout::SizeConstraint::SetDefaultConstraint</enum>
-        </property>
-        <property name="topMargin">
-         <number>0</number>
-        </property>
-        <property name="bottomMargin">
-         <number>0</number>
-        </property>
-        <item>
-         <widget class="QLabel" name="inputLabel">
-          <property name="text">
-           <string>Input file: </string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="inputPath"/>
-        </item>
-        <item>
-         <widget class="QPushButton" name="inputBrowse">
-          <property name="text">
-           <string>Browse</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_2">
-        <item>
-         <widget class="QLabel" name="label">
-          <property name="text">
-           <string>Output file:</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLineEdit" name="lineEdit"/>
-        </item>
-        <item>
-         <widget class="QPushButton" name="pushButton">
-          <property name="text">
-           <string>Browse</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item>
-       <widget class="QCheckBox" name="checkBox">
-        <property name="text">
-         <string>Multithreaded?</string>
->>>>>>> e93b799 (Added some ui elements -- definitely not complete yet.)
         </property>
        </widget>
       </item>
      </layout>
     </item>
-<<<<<<< HEAD
     <item row="1" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout" stretch=""/>
     </item>
-=======
->>>>>>> e93b799 (Added some ui elements -- definitely not complete yet.)
    </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -121,11 +52,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-<<<<<<< HEAD
      <width>508</width>
-=======
-     <width>437</width>
->>>>>>> e93b799 (Added some ui elements -- definitely not complete yet.)
      <height>23</height>
     </rect>
    </property>
